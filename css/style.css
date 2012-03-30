@@ -221,9 +221,10 @@ td { vertical-align: top; }
 /* Layout Build
    ------------*/
 
-#Container {
+#container {
 	margin:0px auto;
 	width:970px
+	overflow:hidden;
 }
 
 .row {
@@ -238,6 +239,10 @@ td { vertical-align: top; }
 	float: right;
 }
 
+.center {
+	text-align:center;
+}
+
 .content {
 	width: 640px;
 	margin: 0 10px;
@@ -245,6 +250,7 @@ td { vertical-align: top; }
 
 .sidebar {
 	width: 300px;
+	margin-right:10px;
 }
 
 
